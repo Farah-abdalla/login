@@ -1,0 +1,61 @@
+body{
+    background-color: #24353F;
+}
+nav{
+    background-color: #24353F;  
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.login h1{
+    color: #17A2B8;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+}
+.login p,a{
+    color: #fff;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+input{
+  
+    background-color: #24353F !important;
+}
+input::placeholder{
+    color:#B6B6AA !important;
+    font-family: "Titillium Web", sans-serif;
+}
+input:focus{
+    color:#B6B6AA !important;
+    box-shadow: none  !important;
+}
+.btn-outline-info {
+    
+    --bs-btn-hover-color: #fff;
+} 
+.nav-item .btn-outline-warning {
+       
+   color: #B6B6AA ;
+   --bs-btn-hover-color: #fff !important;
+   /* box-shadow:  -5px 2px 54px -9px rgb(255, 193, 7); */
+}
+.btn{
+   margin-top: 10px;
+    }
+    ul li button{
+       color:#B6B6AA !important ;
+    }
+.home{
+ 
+    margin-top: 150px;
+    }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="./img/login.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+      <section>
+        <div class="container d-flex align-items-center justify-content-center">
+           <div class="w-75 m-5 p-5  login text-center">
+            <h1 class="mb-3">Smart Login System</h1>
+          
+            <div class="mb-3 ">
+               
+                <input type="email" class="form-control"  placeholder="Enter your email" id="emailInputValue"  oninput="validationaEmail()">
+              </div>
+              <div class="mb-3">
+              
+                <input type="password" class="form-control"  placeholder="Enter your password" id="passwordInputValue" oninput="validationaPass()">
+
+              </div>
+              <p class="d-none text-danger" id="alert">All inputs is required</p>
+             
+              <div class="d-grid gap-2 mt-4">
+                <button class="btn btn-outline-info" type="button" id="login" onclick="login()">Login</button>
+                
+              </div>
+           
+           <p>Don’t have an account? <a href="./signUp.html" class="text-decoration-none" id="signUp">Sign Up</a></p>
+              
+           </div>
+        </div>
+      </section>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+    
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
